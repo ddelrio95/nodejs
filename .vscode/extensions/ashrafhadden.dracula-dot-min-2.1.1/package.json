@@ -1,0 +1,104 @@
+{
+	"name": "dracula-dot-min",
+	"version": "2.1.1",
+	"description": "Dracula minified 📦 Less GUI, more code — Minimal 🌙 Dark & 🔆 Light themes",
+	"keywords": [
+		"dracula flat",
+		"dracula.min",
+		"dracula",
+		"minimal",
+		"borderless",
+		"no borders",
+		"no-borders",
+		"flat",
+		"solid",
+		"seamless"
+	],
+	"homepage": "https://github.com/ashrafhadden/dracula.min",
+	"bugs": {
+		"url": "https://github.com/ashrafhadden/dracula.min/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ashrafhadden/dracula.min"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Ashraf Hadden",
+		"email": "ashrafhadden@gmail.com",
+		"url": "https://github.com/ashrafhadden"
+	},
+	"contributors": [
+		"Ashraf Hadden",
+		"Zeno Rocha",
+		"Derek P Sifford",
+		"Krzysztof Wisznarewski",
+		"Daniel Ramos",
+		"Eric Jackson",
+		"Elliott Pogue",
+		"Ajit Singh",
+		"Teddy Bradford"
+	],
+	"scripts": {
+		"build": "node ./scripts/build.js",
+		"lint": "node ./scripts/lint.js",
+		"start": "vsce package && code --install-extension ${npm_package_name}-${npm_package_version}.vsix",
+		"test": "node ./scripts/test.js",
+		"vscode:prepublish": "npm update && npm run build"
+	},
+	"devDependencies": {
+		"chroma-js": "^2.0.3",
+		"js-yaml": "^3.13.1"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dracula.min",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dracula-dot-min.json"
+			},
+			{
+				"label": "Dracula.min Light",
+				"uiTheme": "vs",
+				"path": "./themes/dracula-dot-min-light.json"
+			},
+			{
+				"label": "Dracula.min Light Darker",
+				"uiTheme": "vs",
+				"path": "./themes/dracula-dot-min-light-darker.json"
+			},
+			{
+				"label": "Dracula.min White",
+				"uiTheme": "vs",
+				"path": "./themes/dracula-dot-min-white.json"
+			},
+			{
+				"label": "Dracula.min White Darker",
+				"uiTheme": "vs",
+				"path": "./themes/dracula-dot-min-white-darker.json"
+			}
+		]
+	},
+	"displayName": "Dracula.min",
+	"galleryBanner": {
+		"color": "#282A36",
+		"theme": "dark"
+	},
+	"icon": "icon.png",
+	"maintainers": [
+		"Ashraf Hadden <ashrafhadden@gmail.com>"
+	],
+	"publisher": "ashrafhadden",
+	"__metadata": {
+		"id": "e0834702-f696-4680-80ae-3792a8922d38",
+		"publisherId": "747e6650-d486-45eb-87e4-d69e928e9c26",
+		"publisherDisplayName": "Ashraf Hadden",
+		"installedTimestamp": 1630631959042
+	}
+}

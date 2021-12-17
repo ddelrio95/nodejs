@@ -1,0 +1,70 @@
+{
+	"name": "theme-dracula-italics-turbo",
+	"version": "1.0.2",
+	"displayName": "Dracula Italics Turbo",
+	"homepage": "https://draculatheme.com/",
+	"description": "Forked version of dracula enhanced with italic keywords",
+	"publisher": "FlorianDuros",
+	"license": "MIT",
+	"scripts": {
+		"dev": "node ./scripts/dev.js",
+		"build": "node ./scripts/build.js",
+		"lint": "node ./scripts/lint.js",
+		"package": "vsce package -o ./bin/dracula.vsix",
+		"vscode:prepublish": "npm run build"
+	},
+	"maintainers": [
+		"Florian Duros <florian.duros@gmail.com>"
+	],
+	"contributors": [
+		"Florian Duros"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/florianduros/dracula-italics-visual-studio-code.git"
+	},
+	"bugs": {
+		"url": "https://github.com/florianduros/dracula-italics-visual-studio-code.git"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dracula",
+		"dark",
+		"theme",
+		"color-theme",
+		"italic"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#3c4557",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dracula Italics Turbo",
+				"uiTheme": "vs-dark",
+				"path": "./theme/dracula.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"js-yaml": "^3.13.1",
+		"prettier": "^1.17.0",
+		"tinycolor2": "^1.4.1"
+	},
+	"dependencies": {
+		"vsce": "^1.66.0"
+	},
+	"__metadata": {
+		"id": "d7b66b58-efd2-4ff6-914a-4c34bedf6e7d",
+		"publisherId": "cdd141d4-d1df-460e-8f09-f014186872d0",
+		"publisherDisplayName": "Florian Duros",
+		"installedTimestamp": 1630631959299
+	}
+}

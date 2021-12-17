@@ -1,0 +1,33 @@
+{
+	"name": "selene-theme",
+	"icon": "images/icon.png",
+	"displayName": "Selene Theme",
+	"description": "A modified version of Dracula Theme (https://draculatheme.com/) with Visual Studio Code default background",
+	"version": "0.0.1",
+	"publisher": "BrenoRangel",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BrenoRangel/Selene-Theme"
+	},
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Selene Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Selene Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "9e19ce22-5b7b-437a-aa7e-abc30480ab02",
+		"publisherId": "8ae69151-54cc-4ccb-ab29-6e532178f7f2",
+		"publisherDisplayName": "Breno Rangel",
+		"installedTimestamp": 1630631959423
+	}
+}

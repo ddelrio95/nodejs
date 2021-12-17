@@ -1,0 +1,69 @@
+{
+	"name": "theme-golden-dracula",
+	"version": "1.2.8",
+	"displayName": "Golden Dracula",
+	"homepage": "https://draculatheme.com/",
+	"description": "Golden Dracula Theme. Based on the original Dracula vscode theme",
+	"publisher": "mnxn",
+	"license": "MIT",
+	"scripts": {
+		"build": "node ./build.js",
+		"eject": "./bootstrap.sh eject",
+		"package": "vsce package -o ./bin/golden-dracula.vsix",
+		"vscode:prepublish": "npm run build"
+	},
+	"contributors": [
+		"Max L",
+		"Krzysztof Wisznarewski",
+		"Daniel Ramos",
+		"Eric Jackson",
+		"Elliott Pogue",
+		"Ajit Singh",
+		"Teddy Bradford"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mnxn/Golden-Dracula.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mnxn/Golden-Dracula/issues"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"golden",
+		"dracula",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#3c4557",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Golden Dracula",
+				"uiTheme": "vs-dark",
+				"path": "./theme/golden-dracula.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"js-yaml": "^3.13.1",
+		"prettier": "^1.14.3",
+		"tinycolor2": "^1.4.1"
+	},
+	"__metadata": {
+		"id": "f9f26b02-2e29-470e-9ddd-de94370cc504",
+		"publisherId": "9cd84a28-b753-4c1d-8e39-6044be3db3f7",
+		"publisherDisplayName": "Max L",
+		"installedTimestamp": 1630631956872
+	}
+}

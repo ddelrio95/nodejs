@@ -1,0 +1,329 @@
+0 verbose cli [
+0 verbose cli   '/opt/homebrew/Cellar/node/17.0.1/bin/node',
+0 verbose cli   '/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js',
+0 verbose cli   'exec',
+0 verbose cli   '--',
+0 verbose cli   'create-react-app@5.0.0',
+0 verbose cli   'my-app'
+0 verbose cli ]
+1 info using npm@8.1.0
+2 info using node@v17.0.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/opt/homebrew/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 0ms
+10 timing config:load:file:/Users/dariodelrio/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/opt/homebrew/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 0ms
+16 timing config:load:setEnvs Completed in 0ms
+17 timing config:load Completed in 3ms
+18 timing npm:load:configload Completed in 3ms
+19 timing npm:load:setTitle Completed in 3ms
+20 timing npm:load:setupLog Completed in 0ms
+21 timing config:load:flatten Completed in 1ms
+22 timing npm:load:cleanupLog Completed in 1ms
+23 timing npm:load:configScope Completed in 0ms
+24 timing npm:load:projectScope Completed in 0ms
+25 timing npm:load Completed in 9ms
+26 http fetch GET 200 https://registry.npmjs.org/create-react-app 174ms (cache revalidated)
+27 timing arborist:ctor Completed in 1ms
+28 timing arborist:ctor Completed in 0ms
+29 timing arborist:ctor Completed in 0ms
+30 timing arborist:ctor Completed in 0ms
+31 timing idealTree:init Completed in 3ms
+32 timing idealTree:userRequests Completed in 1ms
+33 silly idealTree buildDeps
+34 silly fetch manifest create-react-app@5.0.0
+35 http fetch GET 200 https://registry.npmjs.org/create-react-app 6ms (cache hit)
+36 silly placeDep ROOT create-react-app@5.0.0 OK for:  want: 5.0.0
+37 silly fetch manifest chalk@^4.1.2
+38 silly fetch manifest commander@^4.1.1
+39 silly fetch manifest cross-spawn@^7.0.3
+40 silly fetch manifest envinfo@^7.8.1
+41 silly fetch manifest fs-extra@^10.0.0
+42 silly fetch manifest hyperquest@^2.1.3
+43 silly fetch manifest prompts@^2.4.2
+44 silly fetch manifest semver@^7.3.5
+45 silly fetch manifest tar-pack@^3.4.1
+46 silly fetch manifest tmp@^0.2.1
+47 silly fetch manifest validate-npm-package-name@^3.0.0
+48 http fetch GET 200 https://registry.npmjs.org/tar-pack 17ms (cache hit)
+49 http fetch GET 200 https://registry.npmjs.org/cross-spawn 55ms (cache revalidated)
+50 http fetch GET 200 https://registry.npmjs.org/prompts 150ms (cache revalidated)
+51 http fetch GET 200 https://registry.npmjs.org/semver 150ms (cache revalidated)
+52 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-name 153ms (cache revalidated)
+53 http fetch GET 200 https://registry.npmjs.org/chalk 156ms (cache revalidated)
+54 http fetch GET 200 https://registry.npmjs.org/fs-extra 158ms (cache revalidated)
+55 http fetch GET 200 https://registry.npmjs.org/envinfo 159ms (cache revalidated)
+56 http fetch GET 200 https://registry.npmjs.org/commander 172ms (cache revalidated)
+57 http fetch GET 200 https://registry.npmjs.org/tmp 483ms (cache revalidated)
+58 http fetch GET 200 https://registry.npmjs.org/hyperquest 488ms (cache revalidated)
+59 timing idealTree:#root Completed in 498ms
+60 silly placeDep ROOT chalk@4.1.2 OK for: create-react-app@5.0.0 want: ^4.1.2
+61 silly placeDep ROOT commander@4.1.1 OK for: create-react-app@5.0.0 want: ^4.1.1
+62 silly placeDep ROOT cross-spawn@7.0.3 OK for: create-react-app@5.0.0 want: ^7.0.3
+63 silly placeDep ROOT envinfo@7.8.1 OK for: create-react-app@5.0.0 want: ^7.8.1
+64 silly placeDep ROOT fs-extra@10.0.0 OK for: create-react-app@5.0.0 want: ^10.0.0
+65 silly placeDep ROOT hyperquest@2.1.3 OK for: create-react-app@5.0.0 want: ^2.1.3
+66 silly placeDep ROOT prompts@2.4.2 OK for: create-react-app@5.0.0 want: ^2.4.2
+67 silly placeDep ROOT semver@7.3.5 OK for: create-react-app@5.0.0 want: ^7.3.5
+68 silly placeDep ROOT tar-pack@3.4.1 OK for: create-react-app@5.0.0 want: ^3.4.1
+69 silly placeDep ROOT tmp@0.2.1 OK for: create-react-app@5.0.0 want: ^0.2.1
+70 silly placeDep ROOT validate-npm-package-name@3.0.0 OK for: create-react-app@5.0.0 want: ^3.0.0
+71 silly fetch manifest ansi-styles@^4.1.0
+72 silly fetch manifest supports-color@^7.1.0
+73 silly fetch manifest path-key@^3.1.0
+74 silly fetch manifest shebang-command@^2.0.0
+75 silly fetch manifest which@^2.0.1
+76 silly fetch manifest graceful-fs@^4.2.0
+77 silly fetch manifest jsonfile@^6.0.1
+78 silly fetch manifest universalify@^2.0.0
+79 silly fetch manifest buffer-from@^0.1.1
+80 silly fetch manifest duplexer2@~0.0.2
+81 silly fetch manifest through2@~0.6.3
+82 silly fetch manifest kleur@^3.0.3
+83 silly fetch manifest sisteransi@^1.0.5
+84 silly fetch manifest lru-cache@^6.0.0
+85 silly fetch manifest debug@^2.2.0
+86 silly fetch manifest fstream@^1.0.10
+87 silly fetch manifest fstream-ignore@^1.0.5
+88 silly fetch manifest once@^1.3.3
+89 silly fetch manifest readable-stream@^2.1.4
+90 silly fetch manifest rimraf@^2.5.1
+91 silly fetch manifest tar@^2.2.1
+92 silly fetch manifest uid-number@^0.0.6
+93 silly fetch manifest rimraf@^3.0.0
+94 silly fetch manifest builtins@^1.0.3
+95 http fetch GET 200 https://registry.npmjs.org/tar 30ms (cache hit)
+96 http fetch GET 200 https://registry.npmjs.org/graceful-fs 60ms (cache revalidated)
+97 http fetch GET 200 https://registry.npmjs.org/universalify 63ms (cache revalidated)
+98 http fetch GET 200 https://registry.npmjs.org/which 69ms (cache revalidated)
+99 http fetch GET 200 https://registry.npmjs.org/buffer-from 68ms (cache revalidated)
+100 http fetch GET 200 https://registry.npmjs.org/sisteransi 66ms (cache revalidated)
+101 http fetch GET 200 https://registry.npmjs.org/supports-color 77ms (cache revalidated)
+102 http fetch GET 200 https://registry.npmjs.org/ansi-styles 82ms (cache revalidated)
+103 http fetch GET 200 https://registry.npmjs.org/lru-cache 78ms (cache revalidated)
+104 http fetch GET 200 https://registry.npmjs.org/through2 81ms (cache revalidated)
+105 http fetch GET 200 https://registry.npmjs.org/once 94ms (cache revalidated)
+106 http fetch GET 200 https://registry.npmjs.org/shebang-command 108ms (cache revalidated)
+107 http fetch GET 200 https://registry.npmjs.org/jsonfile 112ms (cache revalidated)
+108 http fetch GET 200 https://registry.npmjs.org/builtins 105ms (cache revalidated)
+109 http fetch GET 200 https://registry.npmjs.org/readable-stream 115ms (cache revalidated)
+110 http fetch GET 200 https://registry.npmjs.org/path-key 125ms (cache revalidated)
+111 http fetch GET 200 https://registry.npmjs.org/debug 149ms (cache revalidated)
+112 http fetch GET 200 https://registry.npmjs.org/rimraf 176ms (cache revalidated)
+113 http fetch GET 200 https://registry.npmjs.org/fstream 181ms (cache revalidated)
+114 http fetch GET 200 https://registry.npmjs.org/duplexer2 572ms (cache revalidated)
+115 http fetch GET 200 https://registry.npmjs.org/kleur 574ms (cache revalidated)
+116 http fetch GET 200 https://registry.npmjs.org/fstream-ignore 571ms (cache revalidated)
+117 http fetch GET 200 https://registry.npmjs.org/uid-number 570ms (cache revalidated)
+118 timing idealTree:node_modules/create-react-app Completed in 594ms
+119 silly placeDep ROOT ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+120 silly placeDep ROOT supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+121 silly fetch manifest color-convert@^2.0.1
+122 silly fetch manifest has-flag@^4.0.0
+123 http fetch GET 200 https://registry.npmjs.org/has-flag 50ms (cache revalidated)
+124 http fetch GET 200 https://registry.npmjs.org/color-convert 54ms (cache miss)
+125 timing idealTree:node_modules/chalk Completed in 58ms
+126 silly placeDep ROOT color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+127 silly fetch manifest color-name@~1.1.4
+128 timing idealTree:node_modules/ansi-styles Completed in 48ms
+129 silly placeDep node_modules/color-convert color-name@ OK for: color-convert@2.0.1 want: ~1.1.4
+130 timing idealTree:node_modules/color-convert Completed in 1ms
+131 timing idealTree:node_modules/commander Completed in 0ms
+132 silly placeDep ROOT path-key@3.1.1 OK for: cross-spawn@7.0.3 want: ^3.1.0
+133 silly placeDep ROOT shebang-command@2.0.0 OK for: cross-spawn@7.0.3 want: ^2.0.0
+134 silly placeDep ROOT which@2.0.2 OK for: cross-spawn@7.0.3 want: ^2.0.1
+135 silly fetch manifest shebang-regex@^3.0.0
+136 silly fetch manifest isexe@^2.0.0
+137 http fetch GET 200 https://registry.npmjs.org/isexe 48ms (cache revalidated)
+138 http fetch GET 200 https://registry.npmjs.org/shebang-regex 54ms (cache revalidated)
+139 timing idealTree:node_modules/cross-spawn Completed in 57ms
+140 timing idealTree:node_modules/envinfo Completed in 0ms
+141 silly placeDep ROOT graceful-fs@4.2.8 OK for: fs-extra@10.0.0 want: ^4.2.0
+142 silly placeDep ROOT jsonfile@6.1.0 OK for: fs-extra@10.0.0 want: ^6.0.1
+143 silly placeDep ROOT universalify@2.0.0 OK for: fs-extra@10.0.0 want: ^2.0.0
+144 timing idealTree:node_modules/fs-extra Completed in 4ms
+145 timing idealTree:node_modules/graceful-fs Completed in 0ms
+146 silly placeDep ROOT buffer-from@0.1.2 OK for: hyperquest@2.1.3 want: ^0.1.1
+147 silly placeDep ROOT duplexer2@0.0.2 OK for: hyperquest@2.1.3 want: ~0.0.2
+148 silly placeDep ROOT through2@0.6.5 OK for: hyperquest@2.1.3 want: ~0.6.3
+149 silly fetch manifest readable-stream@~1.1.9
+150 silly fetch manifest readable-stream@>=1.0.33-1 <1.1.0-0
+151 silly fetch manifest xtend@>=4.0.0 <4.1.0-0
+152 http fetch GET 200 https://registry.npmjs.org/xtend 56ms (cache revalidated)
+153 timing idealTree:node_modules/hyperquest Completed in 60ms
+154 timing idealTree:node_modules/buffer-from Completed in 0ms
+155 silly placeDep ROOT readable-stream@1.1.14 OK for: duplexer2@0.0.2 want: ~1.1.9
+156 silly fetch manifest core-util-is@~1.0.0
+157 silly fetch manifest isarray@0.0.1
+158 silly fetch manifest string_decoder@~0.10.x
+159 silly fetch manifest inherits@~2.0.1
+160 http fetch GET 200 https://registry.npmjs.org/string_decoder 43ms (cache revalidated)
+161 http fetch GET 200 https://registry.npmjs.org/inherits 65ms (cache revalidated)
+162 http fetch GET 200 https://registry.npmjs.org/isarray 68ms (cache revalidated)
+163 http fetch GET 200 https://registry.npmjs.org/core-util-is 414ms (cache revalidated)
+164 timing idealTree:node_modules/duplexer2 Completed in 415ms
+165 timing idealTree:node_modules/jsonfile Completed in 1ms
+166 timing idealTree:node_modules/path-key Completed in 0ms
+167 silly placeDep ROOT kleur@3.0.3 OK for: prompts@2.4.2 want: ^3.0.3
+168 silly placeDep ROOT sisteransi@1.0.5 OK for: prompts@2.4.2 want: ^1.0.5
+169 timing idealTree:node_modules/prompts Completed in 2ms
+170 timing idealTree:node_modules/kleur Completed in 0ms
+171 silly placeDep ROOT core-util-is@1.0.3 OK for: readable-stream@1.1.14 want: ~1.0.0
+172 silly placeDep ROOT inherits@2.0.4 OK for: readable-stream@1.1.14 want: ~2.0.1
+173 silly placeDep ROOT isarray@0.0.1 OK for: readable-stream@1.1.14 want: 0.0.1
+174 silly placeDep ROOT string_decoder@0.10.31 OK for: readable-stream@1.1.14 want: ~0.10.x
+175 timing idealTree:node_modules/readable-stream Completed in 4ms
+176 timing idealTree:node_modules/core-util-is Completed in 0ms
+177 timing idealTree:node_modules/inherits Completed in 0ms
+178 timing idealTree:node_modules/isarray Completed in 0ms
+179 silly placeDep ROOT lru-cache@6.0.0 OK for: semver@7.3.5 want: ^6.0.0
+180 silly fetch manifest yallist@^4.0.0
+181 http fetch GET 200 https://registry.npmjs.org/yallist 43ms (cache revalidated)
+182 timing idealTree:node_modules/semver Completed in 44ms
+183 silly placeDep ROOT yallist@4.0.0 OK for: lru-cache@6.0.0 want: ^4.0.0
+184 timing idealTree:node_modules/lru-cache Completed in 1ms
+185 silly placeDep ROOT shebang-regex@3.0.0 OK for: shebang-command@2.0.0 want: ^3.0.0
+186 timing idealTree:node_modules/shebang-command Completed in 3ms
+187 timing idealTree:node_modules/shebang-regex Completed in 0ms
+188 timing idealTree:node_modules/sisteransi Completed in 0ms
+189 timing idealTree:node_modules/string_decoder Completed in 0ms
+190 silly placeDep ROOT has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+191 timing idealTree:node_modules/supports-color Completed in 0ms
+192 timing idealTree:node_modules/has-flag Completed in 0ms
+193 silly placeDep ROOT debug@2.6.9 OK for: tar-pack@3.4.1 want: ^2.2.0
+194 silly placeDep ROOT fstream@1.0.12 OK for: tar-pack@3.4.1 want: ^1.0.10
+195 silly placeDep ROOT fstream-ignore@1.0.5 OK for: tar-pack@3.4.1 want: ^1.0.5
+196 silly placeDep ROOT once@1.4.0 OK for: tar-pack@3.4.1 want: ^1.3.3
+197 silly placeDep node_modules/tar-pack readable-stream@2.3.7 OK for: tar-pack@3.4.1 want: ^2.1.4
+198 silly placeDep ROOT rimraf@2.7.1 OK for: tar-pack@3.4.1 want: ^2.5.1
+199 silly placeDep ROOT tar@2.2.2 OK for: tar-pack@3.4.1 want: ^2.2.1
+200 silly placeDep ROOT uid-number@0.0.6 OK for: tar-pack@3.4.1 want: ^0.0.6
+201 silly fetch manifest ms@2.0.0
+202 silly fetch manifest mkdirp@>=0.5 0
+203 silly fetch manifest minimatch@^3.0.0
+204 silly fetch manifest wrappy@1
+205 silly fetch manifest isarray@~1.0.0
+206 silly fetch manifest process-nextick-args@~2.0.0
+207 silly fetch manifest safe-buffer@~5.1.1
+208 silly fetch manifest string_decoder@~1.1.1
+209 silly fetch manifest util-deprecate@~1.0.1
+210 silly fetch manifest glob@^7.1.3
+211 silly fetch manifest block-stream@*
+212 http fetch GET 200 https://registry.npmjs.org/safe-buffer 57ms (cache revalidated)
+213 http fetch GET 200 https://registry.npmjs.org/util-deprecate 58ms (cache revalidated)
+214 http fetch GET 200 https://registry.npmjs.org/block-stream 59ms (cache revalidated)
+215 http fetch GET 200 https://registry.npmjs.org/glob 61ms (cache revalidated)
+216 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 66ms (cache revalidated)
+217 http fetch GET 200 https://registry.npmjs.org/mkdirp 68ms (cache revalidated)
+218 http fetch GET 200 https://registry.npmjs.org/minimatch 67ms (cache revalidated)
+219 http fetch GET 200 https://registry.npmjs.org/ms 73ms (cache revalidated)
+220 http fetch GET 200 https://registry.npmjs.org/wrappy 74ms (cache revalidated)
+221 timing idealTree:node_modules/tar-pack Completed in 85ms
+222 silly placeDep ROOT ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+223 timing idealTree:node_modules/debug Completed in 0ms
+224 silly placeDep ROOT mkdirp@0.5.5 OK for: fstream@1.0.12 want: >=0.5 0
+225 silly fetch manifest minimist@^1.2.5
+226 http fetch GET 200 https://registry.npmjs.org/minimist 51ms (cache revalidated)
+227 timing idealTree:node_modules/fstream Completed in 52ms
+228 silly placeDep ROOT minimatch@3.0.4 OK for: fstream-ignore@1.0.5 want: ^3.0.0
+229 silly fetch manifest brace-expansion@^1.1.7
+230 http fetch GET 200 https://registry.npmjs.org/brace-expansion 48ms (cache revalidated)
+231 timing idealTree:node_modules/fstream-ignore Completed in 49ms
+232 silly placeDep ROOT brace-expansion@1.1.11 OK for: minimatch@3.0.4 want: ^1.1.7
+233 silly fetch manifest balanced-match@^1.0.0
+234 silly fetch manifest concat-map@0.0.1
+235 http fetch GET 200 https://registry.npmjs.org/concat-map 48ms (cache revalidated)
+236 http fetch GET 200 https://registry.npmjs.org/balanced-match 50ms (cache revalidated)
+237 timing idealTree:node_modules/minimatch Completed in 52ms
+238 silly placeDep ROOT balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+239 silly placeDep ROOT concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+240 timing idealTree:node_modules/brace-expansion Completed in 3ms
+241 timing idealTree:node_modules/balanced-match Completed in 0ms
+242 timing idealTree:node_modules/concat-map Completed in 0ms
+243 silly placeDep ROOT minimist@1.2.5 OK for: mkdirp@0.5.5 want: ^1.2.5
+244 timing idealTree:node_modules/mkdirp Completed in 0ms
+245 timing idealTree:node_modules/minimist Completed in 0ms
+246 timing idealTree:node_modules/ms Completed in 0ms
+247 silly placeDep ROOT wrappy@1.0.2 OK for: once@1.4.0 want: 1
+248 timing idealTree:node_modules/once Completed in 0ms
+249 silly placeDep ROOT glob@7.2.0 OK for: rimraf@2.7.1 want: ^7.1.3
+250 silly fetch manifest fs.realpath@^1.0.0
+251 silly fetch manifest inflight@^1.0.4
+252 silly fetch manifest path-is-absolute@^1.0.0
+253 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 42ms (cache revalidated)
+254 http fetch GET 200 https://registry.npmjs.org/fs.realpath 49ms (cache revalidated)
+255 http fetch GET 200 https://registry.npmjs.org/inflight 92ms (cache revalidated)
+256 timing idealTree:node_modules/rimraf Completed in 97ms
+257 silly placeDep ROOT fs.realpath@1.0.0 OK for: glob@7.2.0 want: ^1.0.0
+258 silly placeDep ROOT inflight@1.0.6 OK for: glob@7.2.0 want: ^1.0.4
+259 silly placeDep ROOT path-is-absolute@1.0.1 OK for: glob@7.2.0 want: ^1.0.0
+260 timing idealTree:node_modules/glob Completed in 2ms
+261 timing idealTree:node_modules/fs.realpath Completed in 0ms
+262 timing idealTree:node_modules/inflight Completed in 0ms
+263 timing idealTree:node_modules/path-is-absolute Completed in 0ms
+264 silly placeDep ROOT block-stream@0.0.9 OK for: tar@2.2.2 want: *
+265 timing idealTree:node_modules/tar Completed in 1ms
+266 timing idealTree:node_modules/block-stream Completed in 0ms
+267 silly placeDep node_modules/through2 readable-stream@1.0.34 OK for: through2@0.6.5 want: >=1.0.33-1 <1.1.0-0
+268 silly placeDep ROOT xtend@4.0.2 OK for: through2@0.6.5 want: >=4.0.0 <4.1.0-0
+269 timing idealTree:node_modules/through2 Completed in 3ms
+270 silly placeDep node_modules/tmp rimraf@3.0.2 OK for: tmp@0.2.1 want: ^3.0.0
+271 timing idealTree:node_modules/tmp Completed in 1ms
+272 timing idealTree:node_modules/uid-number Completed in 0ms
+273 timing idealTree:node_modules/universalify Completed in 0ms
+274 silly placeDep ROOT builtins@1.0.3 OK for: validate-npm-package-name@3.0.0 want: ^1.0.3
+275 timing idealTree:node_modules/validate-npm-package-name Completed in 1ms
+276 timing idealTree:node_modules/builtins Completed in 0ms
+277 silly placeDep ROOT isexe@2.0.0 OK for: which@2.0.2 want: ^2.0.0
+278 timing idealTree:node_modules/which Completed in 1ms
+279 timing idealTree:node_modules/isexe Completed in 0ms
+280 timing idealTree:node_modules/wrappy Completed in 0ms
+281 timing idealTree:node_modules/xtend Completed in 0ms
+282 timing idealTree:node_modules/yallist Completed in 0ms
+283 timing idealTree:node_modules/color-convert/node_modules/color-name Completed in 0ms
+284 silly placeDep node_modules/tar-pack isarray@1.0.0 OK for: readable-stream@2.3.7 want: ~1.0.0
+285 silly placeDep ROOT process-nextick-args@2.0.1 OK for: readable-stream@2.3.7 want: ~2.0.0
+286 silly placeDep ROOT safe-buffer@5.1.2 OK for: readable-stream@2.3.7 want: ~5.1.1
+287 silly placeDep node_modules/tar-pack string_decoder@1.1.1 OK for: readable-stream@2.3.7 want: ~1.1.1
+288 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@2.3.7 want: ~1.0.1
+289 timing idealTree:node_modules/tar-pack/node_modules/readable-stream Completed in 4ms
+290 timing idealTree:node_modules/process-nextick-args Completed in 0ms
+291 timing idealTree:node_modules/safe-buffer Completed in 0ms
+292 timing idealTree:node_modules/util-deprecate Completed in 0ms
+293 timing idealTree:node_modules/tar-pack/node_modules/isarray Completed in 0ms
+294 timing idealTree:node_modules/tar-pack/node_modules/string_decoder Completed in 0ms
+295 timing idealTree:node_modules/through2/node_modules/readable-stream Completed in 0ms
+296 timing idealTree:node_modules/tmp/node_modules/rimraf Completed in 0ms
+297 timing idealTree:buildDeps Completed in 2145ms
+298 timing idealTree:fixDepFlags Completed in 1ms
+299 timing idealTree Completed in 2151ms
+300 timing command:exec Completed in 5463ms
+301 verbose type system
+302 verbose stack FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/color-name: ENOENT: no such file or directory, lstat '/Users/dariodelrio/.npm/_cacache/content-v2/sha512/14/8e/dcdade657854ccd5d610d29351bd6df101fb52d4d01a837451a7e30bb8d84671c63b2ea77d691763bd70d3f257138ec61bf857c7d487aae8205bca7b4f88'
+302 verbose stack     at /opt/homebrew/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:162:15
+302 verbose stack     at async Promise.all (index 0)
+302 verbose stack     at async Arborist.[buildDepStep] (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1046:5)
+302 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:216:7)
+302 verbose stack     at async Promise.all (index 1)
+302 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:149:5)
+302 verbose stack     at async exec (/opt/homebrew/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:175:7)
+303 verbose cwd /Users/dariodelrio/Data/Projects/React
+304 verbose Darwin 20.6.0
+305 verbose argv "/opt/homebrew/Cellar/node/17.0.1/bin/node" "/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js" "exec" "--" "create-react-app@5.0.0" "my-app"
+306 verbose node v17.0.1
+307 verbose npm  v8.1.0
+308 error code ENOENT
+309 error syscall lstat
+310 error path /Users/dariodelrio/.npm/_cacache/content-v2/sha512/14/8e/dcdade657854ccd5d610d29351bd6df101fb52d4d01a837451a7e30bb8d84671c63b2ea77d691763bd70d3f257138ec61bf857c7d487aae8205bca7b4f88
+311 error errno ENOENT
+312 error enoent Invalid response body while trying to fetch https://registry.npmjs.org/color-name: ENOENT: no such file or directory, lstat '/Users/dariodelrio/.npm/_cacache/content-v2/sha512/14/8e/dcdade657854ccd5d610d29351bd6df101fb52d4d01a837451a7e30bb8d84671c63b2ea77d691763bd70d3f257138ec61bf857c7d487aae8205bca7b4f88'
+313 error enoent This is related to npm not being able to find a file.
+314 verbose exit 1

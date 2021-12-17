@@ -1,0 +1,33 @@
+{
+	"name": "ayu-owl",
+	"displayName": "Ayu Owl",
+	"publisher": "dermohamad",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mo-develop/ayu-owl"
+	},
+	"description": "A theme based on the Ayu Mirage and Night Owl",
+	"version": "0.5.0",
+	"engines": {
+		"vscode": "^1.36.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "ayu-owl",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ayu-owl-color-theme.json"
+			}
+		]
+	},
+	"dependencies": {},
+	"__metadata": {
+		"id": "7bba3b8e-b978-4399-8946-244525079218",
+		"publisherId": "eea77517-5321-4ec9-9f71-0512289e254d",
+		"publisherDisplayName": "dermohamad",
+		"installedTimestamp": 1630631967784
+	}
+}

@@ -1,0 +1,100 @@
+0 verbose cli [
+0 verbose cli   '/opt/homebrew/Cellar/node/17.0.1/bin/node',
+0 verbose cli   '/opt/homebrew/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   'react-redux'
+0 verbose cli ]
+1 info using npm@8.1.0
+2 info using node@v17.0.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/opt/homebrew/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/Users/dariodelrio/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/opt/homebrew/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 4ms
+18 timing npm:load:configload Completed in 4ms
+19 timing npm:load:setTitle Completed in 3ms
+20 timing npm:load:setupLog Completed in 0ms
+21 timing config:load:flatten Completed in 1ms
+22 timing npm:load:cleanupLog Completed in 1ms
+23 timing npm:load:configScope Completed in 0ms
+24 timing npm:load:projectScope Completed in 0ms
+25 timing npm:load Completed in 9ms
+26 timing arborist:ctor Completed in 1ms
+27 timing idealTree:init Completed in 20ms
+28 timing idealTree:userRequests Completed in 0ms
+29 silly idealTree buildDeps
+30 silly fetch manifest react-redux@*
+31 timing arborist:ctor Completed in 0ms
+32 http fetch GET 200 https://registry.npmjs.org/react-redux 16ms (cache hit)
+33 silly fetch manifest react@^16.8.3 || ^17
+34 http fetch GET 200 https://registry.npmjs.org/react 3ms (cache hit)
+35 silly placeDep ROOT react-redux@7.2.6 OK for:  want: *
+36 silly placeDep ROOT react@17.0.2 OK for: react-redux@7.2.6 want: ^16.8.3 || ^17
+37 silly fetch manifest @types/react-redux@^7.1.20
+38 silly fetch manifest hoist-non-react-statics@^3.3.2
+39 silly fetch manifest loose-envify@^1.4.0
+40 silly fetch manifest prop-types@^15.7.2
+41 silly fetch manifest react-is@^17.0.2
+42 silly fetch manifest loose-envify@^1.1.0
+43 silly fetch manifest object-assign@^4.1.1
+44 http fetch GET 200 https://registry.npmjs.org/@types%2freact-redux 203ms (cache miss)
+45 http fetch GET 200 https://registry.npmjs.org/hoist-non-react-statics 216ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/react-is 270ms (cache updated)
+47 timing idealTree:#root Completed in 624ms
+48 silly placeDep node_modules/react loose-envify@ OK for: react@17.0.2 want: ^1.1.0
+49 silly placeDep node_modules/react object-assign@ OK for: react@17.0.2 want: ^4.1.1
+50 timing idealTree:node_modules/react Completed in 3ms
+51 silly placeDep ROOT @types/react-redux@7.1.20 OK for: react-redux@7.2.6 want: ^7.1.20
+52 silly placeDep ROOT hoist-non-react-statics@3.3.2 OK for: react-redux@7.2.6 want: ^3.3.2
+53 silly placeDep node_modules/react-redux loose-envify@ OK for: react-redux@7.2.6 want: ^1.4.0
+54 silly placeDep node_modules/react-redux prop-types@ OK for: react-redux@7.2.6 want: ^15.7.2
+55 silly placeDep ROOT react-is@17.0.2 OK for: react-redux@7.2.6 want: ^17.0.2
+56 silly fetch manifest @types/hoist-non-react-statics@^3.3.0
+57 silly fetch manifest @types/react@*
+58 silly fetch manifest react-is@^16.7.0
+59 http fetch GET 200 https://registry.npmjs.org/@types%2fhoist-non-react-statics 66ms (cache miss)
+60 timing idealTree:node_modules/react-redux Completed in 79ms
+61 silly placeDep ROOT @types/hoist-non-react-statics@3.3.1 OK for: @types/react-redux@7.1.20 want: ^3.3.0
+62 silly placeDep node_modules/@types/react-redux @types/react@ OK for: @types/react-redux@7.1.20 want: *
+63 timing idealTree:node_modules/@types/react-redux Completed in 3ms
+64 silly placeDep node_modules/@types/hoist-non-react-statics @types/react@ OK for: @types/hoist-non-react-statics@3.3.1 want: *
+65 timing idealTree:node_modules/@types/hoist-non-react-statics Completed in 1ms
+66 silly placeDep node_modules/hoist-non-react-statics react-is@16.13.1 OK for: hoist-non-react-statics@3.3.2 want: ^16.7.0
+67 timing idealTree:node_modules/hoist-non-react-statics Completed in 2ms
+68 timing idealTree:node_modules/react-is Completed in 0ms
+69 timing idealTree:node_modules/@types/hoist-non-react-statics/node_modules/@types/react Completed in 0ms
+70 timing idealTree:node_modules/@types/react-redux/node_modules/@types/react Completed in 0ms
+71 timing idealTree:node_modules/hoist-non-react-statics/node_modules/react-is Completed in 0ms
+72 timing idealTree:node_modules/react-redux/node_modules/loose-envify Completed in 0ms
+73 timing idealTree:node_modules/react-redux/node_modules/prop-types Completed in 0ms
+74 timing idealTree:node_modules/react/node_modules/loose-envify Completed in 0ms
+75 timing idealTree:node_modules/react/node_modules/object-assign Completed in 0ms
+76 timing idealTree:buildDeps Completed in 716ms
+77 timing idealTree:fixDepFlags Completed in 1ms
+78 timing idealTree Completed in 737ms
+79 timing command:install Completed in 742ms
+80 verbose type system
+81 verbose stack FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/loose-envify: ENOENT: no such file or directory, lstat '/Users/dariodelrio/.npm/_cacache/content-v2/sha512/21/63/4652675bd5e66e08002075db5de4d9e71f03a4b9eb6bf4e9a7bbf38490b9e4880c813c297bf23ee54f0038a96504f17ead205fc462c2e829023c4a3841c0'
+81 verbose stack     at /opt/homebrew/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:162:15
+82 verbose cwd /Users/dariodelrio
+83 verbose Darwin 20.6.0
+84 verbose argv "/opt/homebrew/Cellar/node/17.0.1/bin/node" "/opt/homebrew/bin/npm" "install" "react-redux"
+85 verbose node v17.0.1
+86 verbose npm  v8.1.0
+87 error code ENOENT
+88 error syscall lstat
+89 error path /Users/dariodelrio/.npm/_cacache/content-v2/sha512/21/63/4652675bd5e66e08002075db5de4d9e71f03a4b9eb6bf4e9a7bbf38490b9e4880c813c297bf23ee54f0038a96504f17ead205fc462c2e829023c4a3841c0
+90 error errno ENOENT
+91 error enoent Invalid response body while trying to fetch https://registry.npmjs.org/loose-envify: ENOENT: no such file or directory, lstat '/Users/dariodelrio/.npm/_cacache/content-v2/sha512/21/63/4652675bd5e66e08002075db5de4d9e71f03a4b9eb6bf4e9a7bbf38490b9e4880c813c297bf23ee54f0038a96504f17ead205fc462c2e829023c4a3841c0'
+92 error enoent This is related to npm not being able to find a file.
+93 verbose exit 1
