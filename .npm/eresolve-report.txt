@@ -1,16 +1,16 @@
 # npm resolution error report
 
-2021-12-08T01:16:08.551Z
+2022-01-27T12:58:26.893Z
 
-While resolving: portfolio@0.1.0
+While resolving: undefined@undefined
 Found: react@17.0.2
 node_modules/react
-  react@"^17.0.1" from the root project
+  react@"^17.0.2" from the root project
 
 Could not resolve dependency:
-peer react@"^16.8.0" from react-github-calendar@2.0.2
-node_modules/react-github-calendar
-  react-github-calendar@"^2.0.2" from the root project
+peer react@"^0.14.9 || ^15.3.0 || ^16.0.0" from redux-devtools@3.7.0
+node_modules/redux-devtools
+  dev redux-devtools@"^3.7.0" from the root project
 
 Fix the upstream dependency conflict, or retry
 this command with --force, or --legacy-peer-deps
@@ -24,9 +24,7 @@ Raw JSON explanation object:
     "name": "react",
     "version": "17.0.2",
     "whileInstalling": {
-      "name": "portfolio",
-      "version": "0.1.0",
-      "path": "/Users/dariodelrio/Data/Resume/Portfolio-master"
+      "path": "/Users/dariodelrio"
     },
     "location": "node_modules/react",
     "isWorkspace": false,
@@ -34,9 +32,9 @@ Raw JSON explanation object:
       {
         "type": "prod",
         "name": "react",
-        "spec": "^17.0.1",
+        "spec": "^17.0.2",
         "from": {
-          "location": "/Users/dariodelrio/Data/Resume/Portfolio-master"
+          "location": "/Users/dariodelrio"
         }
       }
     ]
@@ -44,33 +42,31 @@ Raw JSON explanation object:
   "currentEdge": {
     "type": "prod",
     "name": "react",
-    "spec": "^17.0.1",
+    "spec": "^17.0.2",
     "from": {
-      "location": "/Users/dariodelrio/Data/Resume/Portfolio-master"
+      "location": "/Users/dariodelrio"
     }
   },
   "edge": {
     "type": "peer",
     "name": "react",
-    "spec": "^16.8.0",
+    "spec": "^0.14.9 || ^15.3.0 || ^16.0.0",
     "error": "INVALID",
     "from": {
-      "name": "react-github-calendar",
-      "version": "2.0.2",
+      "name": "redux-devtools",
+      "version": "3.7.0",
       "whileInstalling": {
-        "name": "portfolio",
-        "version": "0.1.0",
-        "path": "/Users/dariodelrio/Data/Resume/Portfolio-master"
+        "path": "/Users/dariodelrio"
       },
-      "location": "node_modules/react-github-calendar",
+      "location": "node_modules/redux-devtools",
       "isWorkspace": false,
       "dependents": [
         {
-          "type": "prod",
-          "name": "react-github-calendar",
-          "spec": "^2.0.2",
+          "type": "dev",
+          "name": "redux-devtools",
+          "spec": "^3.7.0",
           "from": {
-            "location": "/Users/dariodelrio/Data/Resume/Portfolio-master"
+            "location": "/Users/dariodelrio"
           }
         }
       ]
