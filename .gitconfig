@@ -1,6 +1,6 @@
 [user]
-	email = 57421573+ddelrio95@users.noreply.github.com
-	name = Dario
+	email = dariodelrio14@gmail.com
+	name = Your full name
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
